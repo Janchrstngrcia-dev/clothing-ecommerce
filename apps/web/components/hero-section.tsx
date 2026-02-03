@@ -33,12 +33,12 @@ export function HeroSection() {
             className="max-w-2xl"
           >
             <h1 className="font-serif text-4xl md:text-5xl lg:text-7xl text-background leading-[1.1] mb-6 text-balance">
-              Elegance,
+              Seasonal Essentials,
               <br />
-              Unspoken
+              Reimagined
             </h1>
             <p className="text-background/80 text-base lg:text-lg tracking-wide mb-10 max-w-md leading-relaxed">
-              Thoughtfully made essentials that transcend trends and time.
+              Modern spring–summer wear for men and women, designed to feel light, effortless, and enduring.
             </p>
             <motion.div whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.98 }}>
               <Link href="/shop">

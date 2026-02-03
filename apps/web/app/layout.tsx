@@ -11,24 +11,9 @@ const playfair = Playfair_Display({
 })
 
 export const metadata: Metadata = {
-  title: "MAISON | Luxury Essentials",
-  description: "Timeless elegance, modern refinement. Discover our curated collection of luxury essentials.",
-  generator: "v0.app",
+  title: "DOPE DAYS - Essentials",
+  description: "Timeless, minimalist clothing for the modern wardrobe.",
   icons: {
-    icon: [
-      {
-        url: "/icon-light-32x32.png",
-        media: "(prefers-color-scheme: light)",
-      },
-      {
-        url: "/icon-dark-32x32.png",
-        media: "(prefers-color-scheme: dark)",
-      },
-      {
-        url: "/icon.svg",
-        type: "image/svg+xml",
-      },
-    ],
     apple: "/apple-icon.png",
   },
 }

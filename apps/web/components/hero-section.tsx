@@ -11,7 +11,6 @@ export function HeroSection() {
     <section className="relative min-h-screen flex">
     {/* Left content - 80% */}
       <div className="flex-1 relative">
-        {/* Background image - converted to Next.js Image with priority for LCP */}
         <div className="absolute inset-0">
           <Image
             src="/summer-main.jpg"
@@ -23,7 +22,6 @@ export function HeroSection() {
           />
           <div className="absolute inset-0 bg-foreground/20" />
         </div>
-
         {/* Content overlay */}
         <div className="relative z-10 h-full flex flex-col justify-end p-8 lg:p-16 pb-24 lg:pb-32">
           <motion.div

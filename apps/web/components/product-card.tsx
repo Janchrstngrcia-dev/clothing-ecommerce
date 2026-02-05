@@ -67,7 +67,7 @@ export function ProductCard({ id, name, price, image, hoverImage, category, inde
         <div className="space-y-1">
           <p className="text-xs tracking-[0.15em] uppercase text-muted-foreground">{category}</p>
           <h3 className="font-serif text-lg">{name}</h3>
-          <p className="text-sm text-muted-foreground tracking-wide">Starting at ${price.toLocaleString()}</p>
+          <p className="text-sm text-muted-foreground tracking-wide">Starting at PHP{price.toLocaleString()}</p>
         </div>
       </Link>
     </motion.div>

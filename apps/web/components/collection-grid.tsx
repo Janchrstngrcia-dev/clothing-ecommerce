@@ -6,9 +6,9 @@ import { ProductCard } from "./product-card"
 
 const products = [
   {
-    id: "silk-evening-coat",
-    name: "The Atelier Coat",
-    price: 2450,
+    id: "baggy-denim-shorts",
+    name: "Baggy Denim Shorts",
+    price: 799,
     image: "/luxury-wool-coat-front-view-editorial-fashion-phot.jpg",
     hoverImage: "/luxury-wool-coat-back-view-editorial-fashion-photo.jpg",
     category: "Outerwear",
@@ -67,9 +67,9 @@ export function CollectionGrid() {
           transition={{ duration: 0.6 }}
           className="text-center mb-16 lg:mb-24"
         >
-          <h2 className="font-serif text-3xl lg:text-5xl mb-4">Curated Selection</h2>
+          <h2 className="font-serif text-3xl lg:text-5xl mb-4">Selected Pieces</h2>
           <p className="text-muted-foreground tracking-wide max-w-md mx-auto">
-            Each piece tells a story of meticulous craftsmanship
+            Crafted with precision in every detail.
           </p>
         </motion.div>
 

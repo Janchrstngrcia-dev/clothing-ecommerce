@@ -59,12 +59,13 @@ export function Navigation() {
   const navLinks = [
     { href: "/", label: "Home" },
     { href: "/shop", label: "Shop" },
-    { href: "/FAQ's", label: "FAQ's" },
+    { href: "/faqs", label: "FAQ's" },
   ]
 
   const navItemColor = isScrolled ? "text-foreground" : "text-white"
   const navItemHoverColor = isScrolled ? "text-foreground/60 hover:text-foreground" : "text-white/70 hover:text-white"
   const iconColor = isScrolled ? "text-foreground" : "text-white"
+  const logoColor = isScrolled ? "text-foreground" : "text-white"
 
   return (
     <>
@@ -105,7 +106,7 @@ export function Navigation() {
             {/* Logo - MAISON color stays unchanged (always uses foreground) */}
             <Link
               href="/"
-              className="absolute left-1/2 -translate-x-1/2 font-serif text-xl lg:text-2xl tracking-[0.3em] uppercase text-white"
+              className={`absolute left-1/2 -translate-x-1/2 font-serif text-xl lg:text-2xl tracking-[0.3em] uppercase transition-colors duration-500 ${logoColor}`}
             >
               Dope Days
             </Link>
